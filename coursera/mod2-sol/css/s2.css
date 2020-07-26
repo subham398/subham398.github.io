@@ -1,0 +1,73 @@
+h1 {
+  text-align: center;
+  margin-top: 3%;
+}
+.box {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  background-color: grey;
+  border: solid black 1px;
+  margin: 2% auto;
+}
+.item1 {
+  display: inline-block;
+  position: absolute;
+  right: 0%;
+  background-color: rgb(152, 60, 110);
+  margin-left: 70%;
+  width: 30%;
+  line-height: 10%;
+  text-align: center;
+  border-bottom: solid black 1px;
+  border-left: solid black 1px;
+  color: #0f0fff;
+}
+.item2 {
+  padding: 4%;
+  padding-top: 14%;
+}
+#midh {
+  background-color: rgba(265, 0, 0, 0.6);
+  color: rgb(265, 265, 265);
+}
+#lasth {
+  background-color: rgba(0, 265, 0, 0.4);
+  color: rgb(215, 265, 160);
+}
+@media (min-width: 768px) {
+  .box {
+    display: inline-block;
+    width: 46%;
+    margin: 2% 2% 2% 0%;
+  }
+  .outerbox {
+    margin: 0 auto;
+
+    padding: 0 0 0 3%;
+  }
+  #lastbox {
+    width: 95%;
+  }
+  #lastcon {
+    padding-top: 7%;
+  }
+}
+@media (min-width: 992px) {
+  .box {
+    display: inline-block;
+    width: 30%;
+    margin: 2% 2% 2% 0%;
+  }
+  .outerbox {
+    margin: 0 auto;
+
+    padding: 0 0 0 2%;
+  }
+  #lastbox {
+    width: 30%;
+  }
+  #lastcon {
+    padding-top: 14%;
+  }
+}
