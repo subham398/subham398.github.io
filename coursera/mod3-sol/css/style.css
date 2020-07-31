@@ -2,3 +2,8 @@
   background-color: gray;
   margin-top: 5%;
 }
+@media (min-width: 800px) {
+  li {
+    visibility: hidden;
+  }
+}
